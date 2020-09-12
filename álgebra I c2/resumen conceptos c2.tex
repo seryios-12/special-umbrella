@@ -1,0 +1,122 @@
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+
+
+\title{Resumen de contenidos c2}
+\author{}
+\date{}
+\usepackage[spanish]{babel}
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
+\usepackage{natbib}
+\usepackage{graphicx,float}
+\usepackage[margin=1.0in]{geometry}
+
+%\newcommand{comando kliao}{comando bueno}
+%\DeclareMathOperator\cis{cis}
+%\DeclareMathOperator\Arg{Arg}
+
+\begin{document}
+
+\maketitle
+
+
+\part{Conceptos}
+
+
+
+\section{Apunte 6}
+
+\begin{enumerate}
+	\item Definición de matriz
+	\item conjuntos de matrices
+	\item Algunas definiciones
+		\begin{enumerate}
+			\item matriz cuadrada
+			\item matriz fila y matriz columna
+			\item matriz nula
+		\end{enumerate}
+	\item condiciones para igualdad de matrices
+	\item operaciones entre matrices (para las propiedades considerar fuertemente la \textbf{cantidad de filas y columnas} de cada matriz)
+		\begin{enumerate}
+			\item Producto de una matriz con una constante o escalar
+			\item suma de matrices y sus propiedades (conmutatividad, asociatividad elemento neutro, inverso aditivo, etc).
+		\end{enumerate}
+	\item producto de matrices y sus propiedades.
+	\item matriz identidad
+	\item matriz invertible (que tienen inverso multiplicativo)
+	\item matriz inversa
+	\item matriz inertible, matriz no singular
+	\item determinante
+	
+\end{enumerate}
+
+
+
+\clearpage
+
+
+
+
+
+\part{Resumen}
+
+
+
+\section{Propiedades de matrices}
+
+\subsection{Suma}
+\begin{enumerate}
+	\item conmutatividad
+	\item Asociatividad. $A+(B+C)=(A+B)+C$
+	\item neutro para la suma es $\theta$. $A+ \theta =A$
+	\item $A+(-A)= \theta$
+\end{enumerate}
+
+
+
+\subsection{Producto matriz por escalar}
+\begin{enumerate}
+	\item $0A=\theta$
+	\item $\alpha (\beta A) = (\alpha \beta)A$
+	\item $(\alpha + \beta)A= \alpha A + \beta A$
+	\item $\alpha (A+B)= \alpha A + \alpha B$
+\end{enumerate}
+
+
+
+\subsection{Producto entre matrices}
+\begin{enumerate}
+	\item \textbf{NO} conmutativa
+	\item Es asociativa. $A(BC)=(AB)C$
+	\item $A\theta = \theta$
+	\item $AI=A$
+	\item \textbf{NO es cierto} que $AB=\theta \Longrightarrow A=\theta \vee B=\theta$
+	\item no siempre existe inverso multiplicativo
+	\item $A(B+C) = AB+AC \wedge  (A+B)C=AC+BC$
+\end{enumerate}
+
+
+
+\subsection{Inverso multiplicativo}
+\begin{enumerate}
+	\item Si $A$ tiene inversa, es \textbf{única}
+	\item si $A$ es invertible, $A^{-1}$ también y $(A^{-1})^{-1}=A$
+	\item si $A$ y $B$ son invertibles, $AB^{-1}$ también y $(AB)^{-1}=A^{-1}B^{-1}$
+	\item Si $A$ es invertible $A^{T}$ tambien lo es y $(A^{T})^{-1}=(A^{-1})^{T}$
+\end{enumerate}
+
+\subsection{Matriz transpuesta}
+\begin{enumerate}
+	\item $(A^{T})^{T}=A$
+	\item $(A+B)^{T}=A^{T}+B^{T}$
+	\item $(\lambda A)^{T}= \lambda (A^{T})$
+	\item Sean $A$ y $B$ matrices multiplicables, entonces $(AB)^{T}=A^{T}B^{T}$
+\end{enumerate}
+
+
+
+
+
+
+
+\end{document}
