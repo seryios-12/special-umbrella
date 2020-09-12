@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.6.13)  11 SEP 2020 16:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.6.13)  11 SEP 2020 22:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -657,137 +657,137 @@ LaTeX Info: Redefining \% on input line 1.
 \openout3 = `resumenquimicaIc2.toc'.
 
  [2]
-<foto4.png, id=13, 589.20125pt x 272.01625pt>
-File: foto4.png Graphic file (type png)
-<use foto4.png>
-Package pdftex.def Info: foto4.png  used on input line 75.
+<foto/foto4.png, id=13, 589.20125pt x 272.01625pt>
+File: foto/foto4.png Graphic file (type png)
+<use foto/foto4.png>
+Package pdftex.def Info: foto/foto4.png  used on input line 75.
 (pdftex.def)             Requested size: 176.76173pt x 81.6055pt.
-<foto5.png, id=14, 832.10875pt x 443.6575pt>
-File: foto5.png Graphic file (type png)
-<use foto5.png>
-Package pdftex.def Info: foto5.png  used on input line 87.
+<foto/foto5.png, id=14, 832.10875pt x 443.6575pt>
+File: foto/foto5.png Graphic file (type png)
+<use foto/foto5.png>
+Package pdftex.def Info: foto/foto5.png  used on input line 87.
 (pdftex.def)             Requested size: 266.28024pt x 141.9733pt.
  [3
 
- <./foto4.png>]
-<foto6.png, id=18, 428.60126pt x 227.85126pt>
-File: foto6.png Graphic file (type png)
-<use foto6.png>
-Package pdftex.def Info: foto6.png  used on input line 98.
+ <./foto/foto4.png>]
+<foto/foto6.png, id=18, 428.60126pt x 227.85126pt>
+File: foto/foto6.png Graphic file (type png)
+<use foto/foto6.png>
+Package pdftex.def Info: foto/foto6.png  used on input line 98.
 (pdftex.def)             Requested size: 128.58136pt x 68.3559pt.
-<foto7.png, id=19, 238.8925pt x 308.15125pt>
-File: foto7.png Graphic file (type png)
-<use foto7.png>
-Package pdftex.def Info: foto7.png  used on input line 111.
+<foto/foto7.png, id=19, 238.8925pt x 308.15125pt>
+File: foto/foto7.png Graphic file (type png)
+<use foto/foto7.png>
+Package pdftex.def Info: foto/foto7.png  used on input line 111.
 (pdftex.def)             Requested size: 74.0559pt x 95.5259pt.
-<foto8.png, id=20, 370.38374pt x 338.26375pt>
-File: foto8.png Graphic file (type png)
-<use foto8.png>
-Package pdftex.def Info: foto8.png  used on input line 125.
+<foto/foto8.png, id=20, 370.38374pt x 338.26375pt>
+File: foto/foto8.png Graphic file (type png)
+<use foto/foto8.png>
+Package pdftex.def Info: foto/foto8.png  used on input line 125.
 (pdftex.def)             Requested size: 122.227pt x 111.62737pt.
- [4 <./foto5.png> <./foto6.png> <./foto7.png>]
-<foto9.png, id=24, 956.57375pt x 615.29875pt>
-File: foto9.png Graphic file (type png)
-<use foto9.png>
-Package pdftex.def Info: foto9.png  used on input line 143.
+ [4 <./foto/foto5.png> <./foto/foto6.png> <./foto/foto7.png>]
+<foto/foto9.png, id=24, 956.57375pt x 615.29875pt>
+File: foto/foto9.png Graphic file (type png)
+<use foto/foto9.png>
+Package pdftex.def Info: foto/foto9.png  used on input line 143.
 (pdftex.def)             Requested size: 344.36629pt x 221.50737pt.
- [5 <./foto8.png> <./foto9.png>]
-<foto10.png, id=29, 543.02875pt x 264.99pt>
-File: foto10.png Graphic file (type png)
-<use foto10.png>
-Package pdftex.def Info: foto10.png  used on input line 167.
+ [5 <./foto/foto8.png> <./foto/foto9.png>]
+<foto/foto10.png, id=29, 543.02875pt x 264.99pt>
+File: foto/foto10.png Graphic file (type png)
+<use foto/foto10.png>
+Package pdftex.def Info: foto/foto10.png  used on input line 167.
 (pdftex.def)             Requested size: 244.36067pt x 119.24438pt.
-<foto11.png, id=30, 359.3425pt x 517.935pt>
-File: foto11.png Graphic file (type png)
-<use foto11.png>
-Package pdftex.def Info: foto11.png  used on input line 174.
+<foto/foto11.png, id=30, 359.3425pt x 517.935pt>
+File: foto/foto11.png Graphic file (type png)
+<use foto/foto11.png>
+Package pdftex.def Info: foto/foto11.png  used on input line 174.
 (pdftex.def)             Requested size: 107.80357pt x 155.38168pt.
-<foto12.png, id=31, 764.8575pt x 366.36874pt>
-File: foto12.png Graphic file (type png)
-<use foto12.png>
-Package pdftex.def Info: foto12.png  used on input line 187.
+<foto/foto12.png, id=31, 764.8575pt x 366.36874pt>
+File: foto/foto12.png Graphic file (type png)
+<use foto/foto12.png>
+Package pdftex.def Info: foto/foto12.png  used on input line 187.
 (pdftex.def)             Requested size: 229.45901pt x 109.91147pt.
- [6 <./foto10.png> <./foto11.png>]
-<foto13.png, id=35, 875.27pt x 329.23pt>
-File: foto13.png Graphic file (type png)
-<use foto13.png>
-Package pdftex.def Info: foto13.png  used on input line 203.
+ [6 <./foto/foto10.png> <./foto/foto11.png>]
+<foto/foto13.png, id=35, 875.27pt x 329.23pt>
+File: foto/foto13.png Graphic file (type png)
+<use foto/foto13.png>
+Package pdftex.def Info: foto/foto13.png  used on input line 203.
 (pdftex.def)             Requested size: 306.34909pt x 115.23222pt.
-<foto14.png, id=36, 493.845pt x 364.36125pt>
-File: foto14.png Graphic file (type png)
-<use foto14.png>
-Package pdftex.def Info: foto14.png  used on input line 211.
+<foto/foto14.png, id=36, 493.845pt x 364.36125pt>
+File: foto/foto14.png Graphic file (type png)
+<use foto/foto14.png>
+Package pdftex.def Info: foto/foto14.png  used on input line 211.
 (pdftex.def)             Requested size: 172.84833pt x 127.52834pt.
- [7 <./foto12.png> <./foto13.png> <./foto14.png>]
-<foto15.png, id=41, 853.1875pt x 335.2525pt>
-File: foto15.png Graphic file (type png)
-<use foto15.png>
-Package pdftex.def Info: foto15.png  used on input line 219.
+ [7 <./foto/foto12.png> <./foto/foto13.png> <./foto/foto14.png>]
+<foto/foto15.png, id=41, 853.1875pt x 335.2525pt>
+File: foto/foto15.png Graphic file (type png)
+<use foto/foto15.png>
+Package pdftex.def Info: foto/foto15.png  used on input line 219.
 (pdftex.def)             Requested size: 315.67444pt x 124.04147pt.
-<foto16.png, id=42, 451.6875pt x 406.51875pt>
-File: foto16.png Graphic file (type png)
-<use foto16.png>
-Package pdftex.def Info: foto16.png  used on input line 237.
+<foto/foto16.png, id=42, 451.6875pt x 406.51875pt>
+File: foto/foto16.png Graphic file (type png)
+<use foto/foto16.png>
+Package pdftex.def Info: foto/foto16.png  used on input line 237.
 (pdftex.def)             Requested size: 171.64302pt x 154.47871pt.
- [8 <./foto15.png> <./foto16.png>] [9]
-<foto3.png, id=49, 757.83125pt x 340.27126pt>
-File: foto3.png Graphic file (type png)
-<use foto3.png>
-Package pdftex.def Info: foto3.png  used on input line 350.
+ [8 <./foto/foto15.png> <./foto/foto16.png>] [9]
+<foto/foto3.png, id=49, 757.83125pt x 340.27126pt>
+File: foto/foto3.png Graphic file (type png)
+<use foto/foto3.png>
+Package pdftex.def Info: foto/foto3.png  used on input line 350.
 (pdftex.def)             Requested size: 401.64865pt x 180.3429pt.
  [10]
-<foto1.png, id=55, 579.16376pt x 549.05125pt>
-File: foto1.png Graphic file (type png)
-<use foto1.png>
-Package pdftex.def Info: foto1.png  used on input line 386.
+<foto/foto1.png, id=55, 579.16376pt x 549.05125pt>
+File: foto/foto1.png Graphic file (type png)
+<use foto/foto1.png>
+Package pdftex.def Info: foto/foto1.png  used on input line 386.
 (pdftex.def)             Requested size: 173.75046pt x 164.71664pt.
- [11 <./foto3.png>]
-<foto2.png, id=59, 529.98pt x 560.0925pt>
-File: foto2.png Graphic file (type png)
-<use foto2.png>
-Package pdftex.def Info: foto2.png  used on input line 394.
+ [11 <./foto/foto3.png>]
+<foto/foto2.png, id=59, 529.98pt x 560.0925pt>
+File: foto/foto2.png Graphic file (type png)
+<use foto/foto2.png>
+Package pdftex.def Info: foto/foto2.png  used on input line 394.
 (pdftex.def)             Requested size: 158.99521pt x 168.02904pt.
- [12 <./foto1.png> <./foto2.png>]
-<foto17.png, id=65, 1048.91875pt x 431.6125pt>
-File: foto17.png Graphic file (type png)
-<use foto17.png>
-Package pdftex.def Info: foto17.png  used on input line 431.
+[12 <./foto/foto1.png> <./foto/foto2.png>]
+<foto/foto17.png, id=65, 1048.91875pt x 431.6125pt>
+File: foto/foto17.png Graphic file (type png)
+<use foto/foto17.png>
+Package pdftex.def Info: foto/foto17.png  used on input line 431.
 (pdftex.def)             Requested size: 346.14426pt x 142.43256pt.
-<foto18.png, id=66, 823.075pt x 434.62375pt>
-File: foto18.png Graphic file (type png)
-<use foto18.png>
-Package pdftex.def Info: foto18.png  used on input line 462.
+<foto/foto18.png, id=66, 823.075pt x 434.62375pt>
+File: foto/foto18.png Graphic file (type png)
+<use foto/foto18.png>
+Package pdftex.def Info: foto/foto18.png  used on input line 462.
 (pdftex.def)             Requested size: 271.61559pt x 143.42627pt.
- [13 <./foto17.png>]
-<foto19.png, id=71, 961.5925pt x 300.12125pt>
-File: foto19.png Graphic file (type png)
-<use foto19.png>
-Package pdftex.def Info: foto19.png  used on input line 495.
+ [13 <./foto/foto17.png>]
+<foto/foto19.png, id=71, 961.5925pt x 300.12125pt>
+File: foto/foto19.png Graphic file (type png)
+<use foto/foto19.png>
+Package pdftex.def Info: foto/foto19.png  used on input line 495.
 (pdftex.def)             Requested size: 384.63019pt x 120.04637pt.
-<foto20.png, id=72, 593.21625pt x 531.9875pt>
-File: foto20.png Graphic file (type png)
-<use foto20.png>
-Package pdftex.def Info: foto20.png  used on input line 506.
+<foto/foto20.png, id=72, 593.21625pt x 531.9875pt>
+File: foto/foto20.png Graphic file (type png)
+<use foto/foto20.png>
+Package pdftex.def Info: foto/foto20.png  used on input line 506.
 (pdftex.def)             Requested size: 195.76196pt x 175.55641pt.
- [14 <./foto18.png> <./foto19.png>]
-<foto21.png, id=77, 330.23375pt x 358.33875pt>
-File: foto21.png Graphic file (type png)
-<use foto21.png>
-Package pdftex.def Info: foto21.png  used on input line 525.
+ [14 <./foto/foto18.png> <./foto/foto19.png>]
+<foto/foto21.png, id=77, 330.23375pt x 358.33875pt>
+File: foto/foto21.png Graphic file (type png)
+<use foto/foto21.png>
+Package pdftex.def Info: foto/foto21.png  used on input line 525.
 (pdftex.def)             Requested size: 99.07088pt x 107.50244pt.
-<foto22.png, id=78, 991.705pt x 445.665pt>
-File: foto22.png Graphic file (type png)
-<use foto22.png>
-Package pdftex.def Info: foto22.png  used on input line 539.
+<foto/foto22.png, id=78, 991.705pt x 445.665pt>
+File: foto/foto22.png Graphic file (type png)
+<use foto/foto22.png>
+Package pdftex.def Info: foto/foto22.png  used on input line 539.
 (pdftex.def)             Requested size: 297.5138pt x 133.70053pt.
- [15 <./foto20.png> <./foto21.png>] [16 <./foto22.png>]
-(./resumenquimicaIc2.aux
+ [15 <./foto/foto20.png> <./foto/foto21.png>]
+[16 <./foto/foto22.png>] (./resumenquimicaIc2.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 4633 strings out of 494861
- 59709 string characters out of 6178804
+ 4634 strings out of 494861
+ 60154 string characters out of 6178804
  134490 words of memory out of 5000000
  7845 multiletter control sequences out of 15000+600000
  11810 words of font info for 46 fonts, out of 8000000 for 9000
@@ -803,7 +803,7 @@ t/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts
 ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/symbols/msam10.pfb>
-Output written on resumenquimicaIc2.pdf (16 pages, 1905672 bytes).
+Output written on resumenquimicaIc2.pdf (16 pages, 1905657 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  67 compressed objects within 1 object stream
