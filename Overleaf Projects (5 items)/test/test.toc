@@ -1,0 +1,27 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Clase 1 y 2: l\IeC {\'\i }mites y sus propiedades}{1}
+\contentsline {subsection}{\numberline {1.1}Definici\IeC {\'o}n formal de l\IeC {\'\i }mite}{1}
+\contentsline {subsection}{\numberline {1.2}Algunos teoremas y propiedades de los l\IeC {\'\i }mites}{1}
+\contentsline {subsection}{\numberline {1.3}\IeC {\'A}lgebra de l\IeC {\'\i }mites}{1}
+\contentsline {subsection}{\numberline {1.4}C\IeC {\'o}mo sacar algunos l\IeC {\'\i }mites}{2}
+\contentsline {subsection}{\numberline {1.5}Teorema de sustituci\IeC {\'o}n}{2}
+\contentsline {subsection}{\numberline {1.6}El teorema del sandwich}{2}
+\contentsline {subsection}{\numberline {1.7}Teorema de acotaci\IeC {\'o}n}{2}
+\contentsline {section}{\numberline {2}Clase 3: l\IeC {\'\i }mites laterales}{2}
+\contentsline {subsection}{\numberline {2.1}Definici\IeC {\'o}n formal de l\IeC {\'\i }mites laterales}{2}
+\contentsline {subsection}{\numberline {2.2}Existencia de un l\IeC {\'\i }mite}{2}
+\contentsline {subsection}{\numberline {2.3}L\IeC {\'\i }mites fundamentales}{3}
+\contentsline {section}{\numberline {3}Clase 4: continuidad}{3}
+\contentsline {subsection}{\numberline {3.1}Definici\IeC {\'o}n formal de continuidad}{3}
+\contentsline {subsection}{\numberline {3.2}\IeC {\'A}lgebra de funciones continuas}{3}
+\contentsline {subsection}{\numberline {3.3}Continuidad de la funci\IeC {\'o}n compuesta $f\circ g$}{3}
+\contentsline {subsection}{\numberline {3.4}Continuidad lateral}{4}
+\contentsline {subsection}{\numberline {3.5}Teorema del valor intermedio}{4}
+\contentsline {subsubsection}{\numberline {3.5.1}corolario}{4}
+\contentsline {section}{\numberline {4}Clase 5 y 6: l\IeC {\'\i }mites con infinito}{4}
+\contentsline {subsection}{\numberline {4.1}L\IeC {\'\i }mites infinitos}{4}
+\contentsline {subsection}{\numberline {4.2}\IeC {\'A}lgebra de l\IeC {\'\i }mites infinitos}{4}
+\contentsline {subsection}{\numberline {4.3}L\IeC {\'\i }mites en el infinito}{5}
+\contentsline {subsection}{\numberline {4.4}L\IeC {\'\i }mites infinitos en el infinito}{6}
+\contentsline {subsection}{\numberline {4.5}As\IeC {\'\i }ntotas}{6}
+\contentsline {subsection}{\numberline {4.6}La recta real extendida}{7}

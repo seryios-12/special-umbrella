@@ -1,0 +1,282 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+
+\DeclareMathOperator\cis{cis}
+\DeclareMathOperator\Arg{Arg}
+
+\title{Resumen de Álgebra I}
+\author{Sergio Rodríguez}
+\date{Agosto 2020}
+
+\begin{document}
+
+\maketitle
+
+\section{Clase 1.1}
+\subsection{Números Complejos}
+Son de la forma $z=a+bi$ con $a,b\in \mathbb{R}$. La parte real de $z$ corresponde a $Re(z)=a$ y la parte imaginaria es $Im(z)=b$. Cuando $Im(z)=0$ decimos que el número es un \textbf{complejo real}, por otro lado, si $Re(z)=0$ decimos que se trata de un \textbf{imaginario puro}.
+Supongamos que tenemos $z_1,z_2 \in \mathbb{C}$, entonces 
+\begin{center}
+     $z_1=z_2\Longleftrightarrow Re(z_1)=Re(z_2) \wedge Im(z_1)=Im(z_2)$
+\end{center}
+\subsubsection{Formas de representar números complejos}
+Existen 4 formas de expresar un número complejo
+\begin{itemize}
+    \item Binomial ($a+bi$ con $a,b\in \mathbb{R}$)
+    \item Como par ordenado ($(a,b)$ es representado como vector en el plano de Argant)
+    \item Polar; de la forma $|z|cis(Arg(z))$
+    \item Exponencial (Agregar más adelante)
+\end{itemize}
+\subsection{Suma y producto de $\mathbb{C}$}
+Tenemos $z=x+yi \in \mathbb{C}$ y $w=a+bi \in \mathbb{C}$, si $x,y,a,b \in \mathbb{R}$
+\begin{enumerate}
+    \item $z + w = (x + y i) + (a + b i) = (x + a) + (y + b) i$
+    \item $z \cdot w = (x + y i)(a + b i) = xa + xb i + ya i + yb i^2 = (xa - yb) + (xb + ya) i$
+\end{enumerate}
+%%Decidir si agregar representación gráfica de las operaciones
+
+\section{Clase 1.2}
+\subsection{Propiedades de la suma de complejos}
+\begin{enumerate}
+    \item $\forall z_1,z_2 \in \mathbb{C}$ se cumple que $z_1+z_2=z_2+z_1$ (\textbf{Conmutativa})
+    
+    \item $\forall z_1,z_2,z_3 \in \mathbb{C}$ se cumple que $z_1+(z_2+z_3)=(z_1+z_2)+z_3$ (\textbf{Asociativa})
+    
+    \item Existe el complejo real $0$ tal que $\forall z\in \mathbb{C}:z+0=z$. Notemos que el $0$ es el \textbf{único} elemento neutro para la suma. (\textbf{Existencia de un elemento neutro})
+    
+    \item Para todo $z\in \mathbb{C}$ existe el $-z$ tal que $z+(-z)=0$. Para cada $z\in \mathbb{C}$, $-z$ es el \textbf{único} inverso aditivo de $z$. (\textbf{Inverso aditivo})
+\end{enumerate}
+\subsection{Propiedades del producto de complejos}
+\begin{enumerate}
+    \item $\forall z_1,z_2 \in \mathbb{C} : z_1z_2=z_2z_1$. (\textbf{Conmutativa})
+    
+    \item $\forall z_1,z_2,z_3\in \mathbb{c}: z_1(z_2z_3)=(z_1z_2)z_3$. (\textbf{Asociativa})
+    
+    \item El complejo real $1$ es tal que $\forall z \in \mathbb{C}: z \cdot 1=z$. El $1$ es el \textbf{único} neutro para el producto. (\textbf{Existencia de un neutro para el producto})
+    
+    \item $\forall z\in \mathbb{C}: 0 \cdot z=0$. Es por esto que \textbf{el 0 no tiene inverso multiplicativo}
+    
+    \item Sea $z=x+yi, z\ne 0$. Un número $u=a+bi$ es inverso multiplicativo de $z$ si y sólo si $z\cdot u=u\cdot z=1$. (\textbf{Inverso multiplicativo})
+    
+    \item $\forall z_1,z_2,z_3 \in \mathbb{C}$ se cumple que $z1(z_2+z_3)=z_1z_2+z_1z_3$. (\textbf{Distributividad de la suma con respecto al producto})
+\end{enumerate}
+\subsection{Conjugado de números complejos}
+Si $z=a+bi\in \mathbb{c}$, entonces si conjugado se denota $\overline{z}=a-bi$.
+
+\subsection{Producto de $z$ por su conjugado}
+Si $z=a+bi$ con $a,b\in \mathbb{R}$, $\overline{z}=a-bi$ entonces $z\overline{z}=a^2+b^2$. Esto vendría siendo el cuadrado de la distancia de $(0,0)$ a $(a,b)$. Notemos que esta distancia se denomina el \textbf{módulo de $z$} y se denota $|z|$, en donde 
+\begin{center}
+    $|z|=\sqrt{a^2+b^2} \Rightarrow z\overline{z}=|z|^2$
+\end{center}
+
+\subsection{Inverso multiplicativo de $z$}
+Para cada $z\in \mathbb{C}-\{0\}$ el número $\frac{1}{|z|^2}\overline{z}$ es su \textbf{único} inverso multiplicativo (demostración trivial).
+
+\subsection{Diferencia y cociente de de números complejos}
+Dados $z,w\in \mathbb{C}$, la \textbf{diferencia} $z-w$ es: $z-w=z+(-w)$. Si $w\ne0$ el \textbf{cociente} $\frac{z}{w}$ es: $\frac{z}{w}=zw^{-1}=w^{-1}z$.
+
+\subsection{Propiedades de $\overline{z}$}
+Para todo $z,w\in \mathbb{C}$ se cumple que
+\begin{enumerate}
+    \item $\overline{\overline{z}}=z$.
+    \item $z=\overline{z}$ si y sólo si $z$ es complejo real.
+    \item $z=-\overline{z}$ si y solo si $z$ es imaginario puro.
+    \item $\overline{z+w}=\overline{z}+\overline{w}$. En particular, $\overline{-z}=-\overline{z}$.
+    \item $\overline{zw}=\overline{z}\cdot\overline{w}$. En particular, $\overline{z^{-1}}=(\overline{z})^{-1}$
+    \item $\overline{(\frac{z}{w})}=\frac{\overline{z}}{\overline{w}}$.
+\end{enumerate}
+
+\subsection{Propiedades del módulo de $z$}
+Para todo $z,w\in \mathbb{C}$ se cumple que
+\begin{enumerate}
+    \item $|z|\in \mathbb{R}^+\cup \{0\}$.
+    \item $|z|=0 \Leftrightarrow z=0$.
+    \item Si $z$ es un complejo real, $|z|$ es su valor absoluto (ocurre lo mismo con los imaginarios puros).
+    \item $\forall z \in \mathbb{C}$ se cumple que
+        \begin{itemize}
+            \item $z\overline{z}=|z|^2$
+            \item $|\overline{z}^2|=\overline{z}\cdot \overline{\overline{z}}=\overline{\overline{z}} \cdot \overline{z}$
+        \end{itemize}
+    \item $\forall z,w\in \mathbb{C}:|zw|=|z||w|$. En particular, si $z\ne 0, |z^{-1}|=\frac{1}{|z|}$.
+    \item $\forall z,w\in \mathbb{C}: |z+w|\leq|z|+|w|$
+\end{enumerate}
+
+\section{Clase 2.1}
+\subsection{Más propiedades de suma y producto de complejos}
+\begin{enumerate}
+    \item El producto de números complejos es cero si y sólo si uno de los dos es cero, $\forall z_1,z_2 \in \mathbb{C}: z_1z_2=0 \Leftrightarrow z_1=o$ o $z_2=0$.
+    %%comprobar veracidad de esta propiedad
+    \item el inverso aditivo de $z+w$ es $-z-w$.
+    
+    \item El inverso aditivo del inverso aditivo de $z$ es $z$, $\forall z\in \mathbb{C}:-(-z)=z$.
+    
+    \item Si $z,w \ne o$, entonces $(zw)^{-1}=z^{-1}w^{-1}$.
+    
+    \item $(w^{-1})^{-1}=w$.
+\end{enumerate}
+\subsection{Potencias con exponente natural de un número complejo}
+Sean $z,w\in \mathbb{C}, n,m\in \mathbb{N}$. Entonces $z^n$ es el producto de $z$ por sí mismo $n$ veces.
+\begin{center}
+    $z^nz^m=z^{n+m}, (z^n)^m=z^{nm}, z^nw^m=(zw)^n, \frac{z^n}{z^m}=z^{n-m}$.
+\end{center}
+
+\subsection{Forma polar de números complejos}
+Se basa en la relación entre \textbf{coordenadas polares} y \textbf{coordenadas cartesianas} de puntos en el plano cartesiano
+\begin{itemize}
+    \item Coordenadas cartesianas: $(x,y), x,y\in \mathbb{R}$
+    \item Coordenadas polares: $(\rho,\theta): \rho \in \mathbb{R}^+ \cup \{0\}, \in \mathbb{R}$
+\end{itemize}
+
+\subsection{Forma polar de un número complejo}
+Si $z=w+yi$ con $x,y\in \mathbb{R}$, podemos ubicar a $z$ en el plano de Argand del mismo modo que ubicamos el punto con coordenadas cartesianas $(x,y)$ en el plano cartesiano.
+Las coordenadas polares de $(x,y)$ son $(\rho,\theta)$ con 
+\begin{center}
+    $\rho=|z|$ $\wedge$ $\theta$  satisface  $\cos{\theta}=\frac{x}{|z|},\sin{\theta}=\frac{y}{|z|}z$.    
+\end{center}
+
+Por lo tanto, 
+\begin{center}
+    $z=x+yi=|z|\cos{\theta}+i|z|\sin{\theta}=|z|(\cos{\theta}+i\sin{\theta})=|z|\cis{\theta}$
+\end{center}
+Si $\theta \in ]-\pi,\pi], |z|\cis{\theta}$ es la \textbf{representación polar} de $z$ y $\theta$ recibe el nombre de \textbf{argumento principal de $z$}
+
+\section{Clase 2.2}
+
+\subsection{Transformar números complejos de forma polar a binomial y viceversa}
+Trivial
+
+\subsection{Inverso aditivo de un número complejo en forma polar}
+Si $z=|z|\cis{\theta}$, entonces
+\begin{center}
+    $-z=|z|(-\cos{\theta}-i\sin{\theta})=|z|(\cos{(\pi+\theta)}+i\sin{(\pi + \theta)})$
+\end{center}
+
+\subsection{Conjugado e inverso multiplicativo de números complejos en
+forma polar}
+Si $z=|z|\cis{\theta}$, entonces
+\begin{itemize}
+    \item$\overline{z}=|z|(\cos{\theta}-i\sin{\theta})=|z|(\cos{(-\theta)}+i\sin{(-\theta)})=|z|\cis{(-\theta)}$
+    \item $z^{-1}=\frac{1}{|z|}\cis{(-\theta)}$
+\end{itemize}
+
+\section{Clase 3.1}
+
+\subsection{Operaciones con números complejos en forma polar}
+Sean $z_1=|z_1|\cis{\theta_1}, z_2=|z_2|\cis{\theta_2}$ y $n\in \mathbb{N}$, entonces
+\begin{itemize}
+    \item $z_1+z_2=|z_1|\cos{\theta_1}+|z_2|\cos{\theta_2}+i(|z_1|\sin{\theta_1}+|z_2|\sin{\theta_2})$
+    
+    \item $\overline{z_1}=|z_1|\cis{(-\theta_1)}$
+    
+    \item $-z_1=|z_1|\cis{(\pi + \theta_1)}$
+    
+    \item si $z_1\ne 0, z_{1}^{-1}=\frac{1}{|z_1|}\cis{(-\theta_1)}$
+    
+    \item $z_1z_2=|z_1||z_2|\cis{(\theta_1+\theta_2)}$
+    
+    \item $z_{1}^{n}=|z_1|^n\cis{(n\theta_1)}$
+    
+    \item si $z_1\ne 0, \frac{z_2}{z_1}=\frac{|z_2|}{|z_1|}\cis{(\theta_2-\theta_1)}$
+\end{itemize}
+
+\subsection{Raíces de números complejos}
+Sea $z\in \mathbb{C}, w\in \mathbb{C}$ es raíz $n-$ésima de $z$ ($n\in \mathbb{N})$) si y sólo si $w^n=z$
+
+\section{Clase 3.2}
+
+\subsection{Fórmula de Moivre}
+Si $z\in \mathbb{C}, z=\cis{(\theta)}, n \in \mathbb{N}$, entonces
+\begin{center}
+    $z^n=|z|^n\cis{(n\theta)}$
+\end{center}
+Es decir,
+\begin{center}
+    $|z|^n(\cos{\theta}+i\sin{\theta})^n=|z|^n(\cos{(n\theta)}+i\sin{(n\theta)}) \Longrightarrow$ \\
+    $(\cos{\theta}+i\sin{\theta})^n=(\cos{(n\theta)}+i\sin{(n\theta)})$
+\end{center}
+
+\subsection{Ejemplo de cómo sacar raíz de un número complejo}
+Calculemos la raíz cuadrada de $1-i$, tenemos 2 formas para hacerlo:
+\begin{itemize}
+    \item \textbf{Forma polar:} primero escribimos $1-i$ en forma polar, osea $\sqrt{2}\cis{\frac{-\pi}{4}}$. Ahora tenemos que encontrar $w\in \mathbb{C}$ tal que $w^2=\sqrt{2}\cis{\frac{-\pi}{4}}$. Tenemos que
+        \begin{center}
+            $|w|^2\cis{(2\alpha)}=\sqrt{2}\cis{\frac{-\pi}{4}}$ \\
+            $|w|^2=\sqrt{2}$ $\wedge$ $\cis{(2\alpha)}=\cis{\frac{-\pi}{4}}$ \\
+            $|w|=\sqrt[4]{2} \wedge 2\alpha = \frac{-\pi}{4} +2 \pi k ,k \in \mathbb{Z}$\\
+            $w=\sqrt[4]{2} \wedge \alpha= -\frac{\pi}{8}+\pi k,k\in\mathbb{Z}$
+        \end{center}
+    Ahora veamos que valores puede tomar $\alpha$ sabiendo que el conjunto solución del mismo es $\alpha=\{k\in \mathbb{Z}:-\frac{\pi}{8}+\pi k  \}$. Para $k=0,\alpha=-\frac{\pi}{8}$, para $k=1, \alpha=\frac{7\pi}{8}$ y para los demás valores de $k$ $\cis{\alpha}$ va tomando los mismos valores ya que la función es periódica. Entonces podemos concluir que$\sqrt{1-i}=\{ \sqrt{2}\cis{(-\frac{\pi}{8})}, \sqrt{2}\cis{\frac{7\pi}{8}} \}$     
+    
+    \item \textbf{Forma binomial:} (pendiente) %%agregar esta wea despues
+\end{itemize}
+ \subsection{Raíces $n$-ésimas de $z\in \mathbb{C}$}
+ Sea $z\in \mathbb{C},w\in \mathbb{C}$ es raíz $n$-ésima de $z$ ($n\in \mathbb{N}$) si y solo si $w^n=z$. Si $z=|z|\cis{\theta}$, entonces
+ \begin{center}
+     $\sqrt[n]{z}=\{ |z|^{\frac{1}{n}}\cis{(\frac{\theta}{n}+\frac{2\pi}{n}k):k=0,1,\cdots ,n-1} \}$
+ \end{center}
+ 
+ \subsection{Algunas propiedades}
+ Si $z=|z|\cis{\theta}$ y $n\in\mathbb{N}$, entonces
+ \begin{itemize}
+     \item las raíces $n$-ésimas de $z$ están en la circunferencia de centro en el origen y radio $|z|^{\frac{1}{n}}$ (las raíces $n$-ésimas de $z$ tienen el módulo igual a $|z|^{\frac{1}{n}}$).
+     \item Si $n$ es par, por cada $w$ que es raíz $n$-ésima de $z$, $-w$ también lo es.
+     \item Si $n$ es par, la suma de las raíces $n$-ésimas de $z$ es cero. %%comprobar si ocurre lo mismo para raices de n impar 
+ \end{itemize}
+ 
+ \subsection{Raíces $n$-ésimas de $1$ y raíces $n$-ésimas de cualquier $z\in \mathbb{C}$}
+ Si $\widetilde{w}$ es una de las raíces $n$-ésimas de $z$, entonces
+ \begin{center}
+     $\sqrt[n]{z}=\{ \widetilde{w}u_0,\widetilde{w}u_1,\cdots, \widetilde{w}u_{n-1}\}$
+ \end{center}
+ Siendo $u_0,u_1,\cdots,u_{n-1}$ las raíces $n$-ésimas de $1$,
+ \begin{center}
+     $\sqrt[n]{(1)}=\{ \cis{(\frac{2\pi}{n}k)}:k=0,0,\cdots,n-1 \}$
+     %%añadir la wea que viene justo despues de este conjunto 10/18
+\end{center}
+
+Entonces cuando $\widetilde{w}$ es un de las raíces $n$-ésimas de $z$ y $u_j$ es una de las raíces $n$-ésimas de $1$, tenemos $(\widetilde{w}u_j)^n=(\widetilde{w})^n(u_j)^n=z\cdot 1=z$. Ademas $\widetilde{w}u_0,\widetilde{w}u_1,\cdots ,\widetilde{w}u_{n-1}$ son $n$ valores distintos entre sí. Por tanto, 
+\begin{center}
+    $\sqrt[n]{z}=\{ \widetilde{w}u_0,\widetilde{w}u_1,\cdots ,\widetilde{w}u_{n-1} \}$
+\end{center}
+
+También podemos ver que la suma de las raíces de $z$ es:
+\begin{center}
+    $\widetilde{w}u_0+\widetilde{w}u_1+\cdots +\widetilde{w}u_{n-1}=\widetilde{w}(u_0+u_1+\cdots+u_{n-1})=\widetilde{w}\cdot(0)=0$
+\end{center}
+
+%%ARREGLAR ESTE DESASTRE
+
+\subsection{Forma exponencial de números complejos}
+Sea $z\in \mathbb{C}$
+\begin{itemize}
+    \item existen $x,y\in \mathbb{R}$ de modo que $z=x+iy$.
+    \item existe $\theta \in ]-\pi,\pi]$ de modo que $z=|z|\cis{\theta}$.
+    \item existe $\theta \in ]-\pi,\pi]$ de modo que $z=|z|e^{i\theta}$.
+\end{itemize}
+Es cierto por que para cada $\theta\in \mathbb{R}$ se cumple que $\cos{\theta}+i\sin{\theta}=e^{i\theta}$ 
+
+\subsection{Operaciones con números complejos en forma exponencial}
+Si $z_1=|z_1|e^{i\theta_1},z_2=|z_2|e^{i\theta_2}$, entonces
+\begin{itemize}
+    \item $z_1+z_2=|z_1|e^{i\theta_1}+|z_2|e^{i\theta_2}$
+    \item $\overline{z}=|z_1|e^{-i\theta_1}$
+    \item $-z_1=|z_1|e^{i(\pi+\theta_1)}$
+    \item si $z_1\ne 0, z_1^{-1}=\frac{1}{|z_1|}e^{-i\theta_1}$
+    \item $z_1z_2=|z_1||z_2|e^{i(\theta_1+\theta_2)}$
+    \item $z_{1}^{n}=|z_1|^ne^{i(n\theta_1)}$
+    \item si $z-1\ne 0, \frac{z_2}{z_1}=\frac{|z_2|}{|z_1|}e^{i(\theta_2-\theta_1)}$
+\end{itemize}
+
+\subsection{Representación exponencial de raíces $n$-ésimas de $1$}
+$\sqrt[n]{(1)}=\{ e^{i0},e^{i(\frac{2\pi}{n})},e^{i(\frac{4\pi}{n})},\cdots,e^{i(\frac{2(n-1)\pi}{n})} \}$
+
+
+
+
+\end{document}
+
