@@ -39,3 +39,8 @@
 \contentsline {subsection}{\numberline {8.3}Disminuci\IeC {\'o}n del punto de congelaci\IeC {\'o}n}{14}
 \contentsline {subsection}{\numberline {8.4}Presi\IeC {\'o}n osm\IeC {\'o}tica}{15}
 \contentsline {section}{\numberline {9}Propiedades coligativas en electrolitos}{15}
+\contentsline {part}{V\hspace {1em}Clase 15}{16}
+\contentsline {section}{\numberline {10}Tipos de equilibrio}{16}
+\contentsline {subsection}{\numberline {10.1}Equilibrio material}{16}
+\contentsline {section}{\numberline {11}Cambios de fases}{17}
+\contentsline {section}{\numberline {12}Equilibrio l\IeC {\'\i }quido-vapor}{17}
